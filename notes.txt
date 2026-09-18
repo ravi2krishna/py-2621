@@ -121,8 +121,111 @@ Class - 1
                 print(sum)
 
 
+Class - 2
+===========
+
+    -> Indentation
+
+        -> Indentation Refers To Code Structuring 
+
+        -> In Python We Use "Spaces" For Structuring / Indentation 
+
+        -> Guido van Rossum began working on Python in the late 1980s 
+        as a successor to the "ABC programming language".
+
+        -> ABC Language: https://cdn-blog.adafruit.com/uploads/2020/01/adafruit_2019_3368.jpg
+
+        -> NOTE: You Need To Know 
+
+            -> When To Use Space      
+
+            -> When Not To Use Space      
+
+            -> How Many Spaces To Use 
 
 
-            
+    -> Python an extensive ("batteries-included") standard library,
 
+        -> Python already provided 200+ Modules In standard library i.e 
+        when we install python we get all these out of box 
+
+    
+    -> Python Is Garbage Collected 
+
+        -> Garbage collected means Automatically remove "Unused" Data 
+
+            -> Python Automatically Cleans Up "Unused" Data from Memory / RAM 
+
+                product = "iphone"
+                price = 120000
+                rating = 4.7
+
+                print(product)
+                price(price)
+
+            -> Python Cleans Up rating Memory 
+
+    
+    
+    -> Programming Paradigms 
+
+        -> A programming paradigm is a relatively high-level way to conceptualize and 
+        structure the implementation of a computer program.
+
+        -> Problem: How To Reach Institute ? 
+
+            -> Solution 1: I'll Come By Walk 
+
+            -> Solution 2: I'll Come By Bike 
+
+            -> Solution 3: I'll Come By Car  
+
+        
+        -> We have Two Popular types 
+
+            -> Imperative Approach 
+
+                -> Focus is on "HOW TO DO"
+
+                -> Object Oriented Approach
+
+
+            -> Declarative Approach 
+
+                -> Focus is on "WHAT TO DO"
+
+                -> Functional Oriented Approach
+
+        
+            -> NOTE: Python Supports Multi Paradigm Approach
+            i.e we can use Imperative Approach & Declarative Approach.
+
+            -> https://miro.medium.com/v2/resize:fit:1200/1*Jf5GJS1XtRsHWbZldcvOiQ.png
+
+
+
+    -> Key Features Of Python / Why Python ? 
+
+        -> Simplicity & Easy Readability
+
+        -> High Level Language 
+
+        -> Garbage Collected (Memory Safe)
+
+        -> Multi Paradigm Support 
+
+        -> Open Source (FREE)
+
+        -> Best Prototype Language 
+
+        -> Interpreted Language
+
+        -> Versatility 
+
+            -> Data Oriented / Web Applications / API's / Automation Scripts etc 
+
+
+    -> List Of Popular Applications Where Python is used 
+
+        ->  https://en.wikipedia.org/wiki/Programming_languages_used_in_most_popular_websites  
 
