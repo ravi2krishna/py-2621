@@ -229,3 +229,130 @@ Class - 2
 
         ->  https://en.wikipedia.org/wiki/Programming_languages_used_in_most_popular_websites  
 
+
+Class - 3
+===========
+
+    -> System Requirements For This Course (Practical Lab)
+
+        -> i3 / i5 Processor 
+
+        -> 8 GB RAM 
+
+        -> 500 GB HDD / SDD 
+
+    
+    -> Softwares 
+
+        -> Install Python Interpreter 
+
+            -> https://www.python.org/
+
+            -> Windows / MacOS / Linux 
+
+        -> Install IDE 
+
+            -> Integrated Development Environments 
+
+            -> Tool For Writing Code 
+            (Syntax Highlight, Auto Code Completion, Install Plugins etc)
+
+            -> Visual Studio Code (VS Code)
+
+
+    -> Setup Python Environment 
+
+        -> Verify Installation 
+
+            -> Open Command Prompt(Windows) / Open Terminal (MacOS/Linux)
+
+                -> python --version 
+
+                -> Python was not found
+
+                -> Download & Install exe from https://www.python.org/
+
+                -> python --version 
+
+
+        -> Install Visual Studio Code 
+
+            -> Supports Windows / MacOS / Linux 
+
+    
+    
+    -> Where To Write Code 
+
+        -> Command Line Mode (Not Recommended)
+
+            -> We Write Code In Command Prompt / Terminal 
+
+            -> Temporary, Once We Close The Session all the code is reset 
+
+            -> To Enter Into Command Line Mode 
+
+                -> Open Command Prompt / Terminal, then type python hit enter 
+
+            -> NOTE: Use When Checking The Functionalities 
+
+                -> data = [1,2,3,4,5]
+                -> print(dir(data))
+
+        
+        -> Script Mode (Recommended)
+
+            -> We Write Code In Files 
+
+            -> Permanent, Stored On Disk 
+
+            -> Use IDE To Create and Manage Python Files 
+
+
+
+    -> How To Write Code ?? 
+
+        -> Any Language Has Rules (Human Languages) (Grammar)
+
+        -> Likewise, Any Programming Language Has Rules i.e Syntax 
+
+            -> print(a times b) # SyntaxError: invalid syntax. 
+
+        
+        -> Comparing Programming Language With Human Language (English)   
+
+            -> i taking class now today at 7:00 AM (Incorrect)
+
+            -> i'm taking class today at 7:00 AM (Correct)
+
+        
+        -> Learned English (Language)
+
+            -> English has 26 Alphabets (abcd........z)
+
+            -> Using these Alphabets, We Learn How To Form Words,
+            then Complex Sentences With Proper Grammar Over The Time. 
+
+
+        -> Learn Python (Programming Language)
+
+            -> Python has 35 Keywords 
+
+            -> Using these 35 Keywords, Wr Form Statements Using Proper Syntax
+            Over The Time 
+
+            -> List Of Python Keywords 
+
+                -> https://docs.python.org/3/reference/lexical_analysis.html#keywords
+
+                    False      await      else       import     pass
+                    None       break      except     in         raise
+                    True       class      finally    is         return
+                    and        continue   for        lambda     try
+                    as         def        from       nonlocal   while
+                    assert     del        global     not        with
+                    async      elif       if         or         yield
+
+            -> NOTE: All the above keywords, holds some special meaning to 
+            Python Interpreter
+
+
