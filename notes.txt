@@ -356,3 +356,125 @@ Class - 3
             Python Interpreter
 
 
+Class - 4
+===========
+
+    -> Python Syntax / Rules / Best Practices 
+
+        -> Any File We Write it should have .py as extension 
+
+            -> app.py or demo.py 
+
+        -> Python Ignores Any Line That Starts With # (comments)
+
+            -> # Means Comment 
+
+        -> In Python, We Have Functions  
+        Functions Does Some Task 
+
+            -> Any Function has function_name()
+
+            -> NOTE: We Have print() - prints on standard output
+
+        -> When Working With Numbers (1,5,10,1.5,-10 etc)
+        we can directly use print()
+
+        -> When Working With Text Data, in python we call text data as "Strings"
+
+            -> Syntax / Rule: Strings Should Be Enclosed in '' or " " 
+    
+
+    -> Identifiers 
+
+        -> An Identifier is "Name" Used To Uniquely identify piece of data in code 
+
+            -> Variables 
+
+            -> Functions 
+
+            -> Classes
+
+            -> Objects 
+
+            -> Methods 
+
+            -> etc 
+
+        
+        -> NOTE: Just Like GST Number / PAN Number, we have rules for Names In Python. 
+
+        
+        -> Identifier Rules 
+
+            -> Can Contain 
+
+                -> Alphabets (a-z A-Z)
+
+                -> Digits (0-9)
+
+                -> Special Symbols (Only _ underscore Allowed)
+
+            
+            -> Must Start With
+
+                -> An Alphabet or _ underscore
+
+            -> Use _ for replacing spaces 
+
+        -> NOTE: Always Use Proper Way Of Naming Identifiers 
+
+        -> NOTE: Always Use UPPER CASE for Static Data (Fixed Data / Doesn't Change)
+
+
+
+     -> Variables        
+
+        -> Variable is a named storage location in Computers Memory (RAM)
+        that holds some value.
+
+        -> Syntax 
+
+            -> variable_name = value 
+
+                -> variable_name should follow Identifier rules 
+                -> = Assignment operator 
+                -> value is data type you want to store 
+
+                    -> data = 10 (valid)
+                    -> data = ten (invalid)
+                    -> data = 'ten' (valid)
+
+            
+            -> Variable Allows You To 
+
+                -> Assign Data (Store Data)
+
+                -> Retrieve Data (Get Data)
+
+                -> Manipulate Data (Change Data)
+
+        
+        -> Combine Variables With Custom Statements 
+
+            -> Concatenation: Joining Strings Using + operator 
+
+            -> NOTE: When Combining Strings With Other Data Types 
+            Like int, float, boolean etc Use , operator 
+
+        -> NOTE: To know the data type of Variable Use 
+
+            -> type() function 
+
+        -> NOTE: To know the Memory Address Of Variable Use 
+
+            -> id() function
+
+        -> Memory Model In Python 
+
+            -> If a value is already present in the Memory,
+            Python Will Not Create a New Memory Block Again.
+
+
+        -> Manipulate Data (Change Data)        
+
+            -> Then We Need To Know About "Operators"
