@@ -478,3 +478,116 @@ Class - 4
         -> Manipulate Data (Change Data)        
 
             -> Then We Need To Know About "Operators"
+
+
+Class - 5
+===========
+
+    -> Operators
+
+        -> Operators are special "Symbols" and "Keywords", which Performs 
+        Operations on Variables and their Values.
+
+        -> There are different types of operators, to deal with different types of data 
+
+    -> Arithmetic Operators 
+
+        -> To Perform Mathematical Calculations 
+
+            -> + - * / % 
+
+            -> // - Floor Division (Same As Division, But Rounds Off Result)
+
+            -> ** - Exponentiation (Same As Calculating Powers)
+
+        -> Try Building This Logic / Simple App 
+
+            -> https://www.cardekho.com/carmodels/Tata/Tata_Sierra
+
+    
+    
+    -> Compound Assignment Operators 
+
+        -> Assignment Operator is = 
+
+        -> Compound Assignment Operators, Combine Arithmetic Operators With 
+        Assignment Operator For Short Hand Code (Concise Code)
+
+        -> x = 10
+        -> x = x * 5 (Long Form)
+
+        -> x = 10
+        -> x *= 5 (Short Form)
+        -> x += 5 (Short Form)
+
+        -> NOTE: In Other Languages(Java) We Have Increment and Decrement Operators 
+
+            -> Increment (++) - Increases The Value
+
+            -> Decrement (--) - Decreases The Value
+
+            -> NOTE: Above Operators Are Not Supported In Python 
+
+            -> NOTE: Take Excel Sheet and Increment (person_id, product_id etc)
+
+            -> NOTE: We use loops 
+
+
+    -> Comparison Operators 
+
+        -> Comparison Operators Are Used To Compare Values 
+        and always results in Boolean Type (True/False)
+
+        -> NOTE: We Use Them In Conditionals 
+
+        -> >, <, <=, <=, ==, != 
+
+
+    -> Logical Operators 
+
+        -> Logical Operators Are Used For Performing Logical Operations 
+
+        -> Used To Check Multiple Conditions and Always Results In Boolean Type (True/False)
+
+            -> student enrolled and student attended all classes give course certificate with 5 Stars 
+
+            -> student enrolled and student attended few classes give course certificate with 4 Stars 
+
+            -> student not enrolled and student attended few classes give no course certificate 
+
+                -> and: If Both Conditions are True, Then Only Result is True, Otherwise False 
+                -> or: If One Of The Conditions is True, Then Only Result is True, Otherwise False 
+                -> not: Negates The Result, if True then False and Vice Versa 
+
+                            X       Y       X and Y    X or Y    not X    not Y
+                            T       T           T         T         F       F
+                            T       F           F         T         F       T
+                            F       T           F         T         T       F
+                            F       F           F         F         T       T 
+
+
+    -> Membership Operators 
+
+        -> Used To Check If An Given Object Is In Sequence 
+
+            -> in: Returns True, if Given Object Is In Sequence, Otherwise False 
+
+            -> not in: Returns True, if Given Object Is Not In Sequence
+
+    
+    -> Identity Operators 
+
+        -> Used To Check If Given Objects are Same 
+
+            -> is: Returns True, if Given Objects are Same, Otherwise False 
+
+            -> is not: Returns True, if Given Objects are Not Same 
+
+    
+    -> Bitwise Operators
+
+        -> Used In Low Level Programming (01010101010)
+
+                -> & - if both bits are 1, then result is 1, Otherwise 0 
+                -> | - if one of the bits is 1, then result is 1 
+                -> etc 
