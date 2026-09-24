@@ -591,3 +591,115 @@ Class - 5
                 -> & - if both bits are 1, then result is 1, Otherwise 0 
                 -> | - if one of the bits is 1, then result is 1 
                 -> etc 
+
+
+Class - 6
+===========
+
+    -> Data Types 
+
+        -> Data Types Are "Categorization" That Defines, What Kind Of Data A Variable Can Hold 
+
+        -> Numeric Types 
+
+            -> int: 1,2,5,0,-1,-5 etc
+
+            -> float: 1.5,2.0,0.0,-1.5,-5.2 etc
+
+            -> complex: In mathematics, a + ib, the algebraic form of a complex number
+
+                -> In Python Complex Number Is Represented 
+
+                    -> a + bj 
+
+        -> Boolean Types 
+
+            -> bool: Represents True / False 
+
+        -> NoneType 
+
+            -> NoneType: Represents Absence Of Value 
+
+        -> String Type: 
+
+            -> str: Represents Sequence Of Characters Represented Using '' or " "   
+
+
+        -> Simple Data Types 
+
+            -> Holds Single Value Inside Variable
+
+        -> Complex Data Types 
+
+            -> Holds Multiple Value Inside Variable
+
+        -> Lists: List is a Complex Data Type, it holds Multiple Values 
+        and is Represented Using []
+
+        -> Tuples: Tuple is a Complex Data Type, it holds Multiple Values 
+        and is Represented Using ()
+
+        -> Sets: Set is a Complex Data Type, it holds Multiple Values 
+        and is Represented Using {}
+
+        -> Dictionaries: Dictionary is a Complex Data Type, it holds Multiple "Key Values" 
+        and is Represented Using {}
+
+        -> NOTE: All The Above Data Types Are Pre-Defined Inside Python Standard Library
+
+        -> NOTE: Based On Custom Requirements Coming From Clients, We Can Create Our Own Data Types 
+
+        -> Create Custom Data Types 
+
+            -> class CustomDataType:
+                    Statements  
+
+
+    -> Type Conversion & Type Casting 
+
+        -> Type Conversion / Implicit Conversion
+
+            -> Conversion Of One Data Type To Another Data Type, Automatically Done By Python 
+
+            -> Type Conversion Is SAFE i.e NO DATA LOSS 
+
+        
+        -> Type Casting / Explicit Conversion
+
+            -> Conversion Of One Data Type To Another Data Type, Manually Done By Developer
+
+            -> Type Casting Is NOT SAFE i.e DATA LOSS CAN OCCUR 
+
+            -> Syntax 
+
+                -> Using Casting Functions 
+
+                -> use data_type function_name before variable_name / value 
+
+                    -> data_type(variable_name)
+
+                    -> data_type(value)
+
+    
+
+    -> Control Structures / Control Statements 
+
+        -> Control Structures Helps You Determine The "Flow Of Execution"
+
+        -> Control Structures Allows To You 
+
+            -> Make Decisions 
+
+            -> Repeat Tasks 
+
+        
+        -> Python Has Given Three Types Of Control Structures 
+
+            -> Conditional Structures (Decision Making Statements)
+
+            -> Looping Structures (Iteration Statements) (Repetition)
+
+            -> Branching Structures (Jump Statements) 
+
+
+
