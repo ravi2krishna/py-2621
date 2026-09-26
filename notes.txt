@@ -702,4 +702,93 @@ Class - 6
             -> Branching Structures (Jump Statements) 
 
 
+Class - 7
+===========
+
+    -> NOTE: To Work With Control Structures, We Need "Indentation" Knowledge 
+
+    -> Indentation 
+
+        -> Indentation in Python is a  Mandatory Aspect of it's Syntax,
+        Used to define the "Structure" and "Hierarchy" in "Code Blocks"
+
+            -> Statement: Single Line Of Code
+
+            -> Block: Multiple Lines Of Code 
+
+        -> Unlike Other Programming Language that use Curly Braces {} or Keywords 
+        to define block of code, Python entirely relies in "Consistent" Indentation 
+
+            -> Using Space As Indentation 
+
+        -> NOTE: Understanding Indentation means 
+
+            -> When to use Space 
+            -> When Not to use Space 
+            -> How many spaces to use
+        
+        -> NOTE: Python Allows for any "Consistent Number Of Spaces"  
+        the widely accepted and Recommended standard is 4 Spaces (tab)
+
+            -> When to use Space 
+
+                -> When We Write Block Of Code 
+
+            -> When Not to use Space 
+
+                -> Single Statement 
+
+            -> How many spaces to use
+
+                -> At least one is must, but Recommended is 4 spaces 
+
+
+    -> Python Has Given Three Types Of Control Structures 
+
+        -> Conditional Structures (Decision Making Statements)
+
+        -> Looping Structures (Iteration Statements) (Repetition)
+
+        -> Branching Structures (Jump Statements) 
+
+    
+    -> Conditional Structures (Decision Making Statements)
+
+        -> Used To Run "Block Of Code" Based On A Condition Result 
+
+        -> if Statement 
+
+            -> Runs A Block Of Code, If Condition Is True 
+
+            -> Syntax 
+
+                if condition:
+                    block of code 
+
+        -> if else Statement 
+
+            -> Runs A Block Of Code, If Condition Is True 
+            Runs Another Block Of Code, If Condition Is False 
+
+            -> Syntax 
+
+                if condition:
+                    block of code
+                else:
+                    block of code
+
+        -> NOTE: We Have input() function, Reads Input From User 
+        and Stores The Value As String. 
+
+        
+        -> Interpolation 
+
+            -> Interpolation technique replaces, place holders with actual values dynamically
+
+            -> Using "f-strings" (Formatted String Literals)
+
+                -> We Use f with print() and {} as place holders 
+
+                -> https://printitnice.com/wp-content/uploads/2024/06/stkr22d023-01.webp
+
 
