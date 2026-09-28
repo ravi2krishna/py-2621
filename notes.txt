@@ -792,3 +792,125 @@ Class - 7
                 -> https://printitnice.com/wp-content/uploads/2024/06/stkr22d023-01.webp
 
 
+Class - 8
+===========
+
+    -> Conditional Expression 
+
+        -> Conditional Expression provides a concise way(short hand code)
+        to write if else condition in one single line 
+
+        -> NOTE: It evaluates a condition and returns one of two values 
+        based on whether the condition is True or False.
+
+            -> Syntax 
+                
+                value_if_true if condition else value_if_false 
+
+
+    -> elif ladder 
+
+        -> It is used in Conditional Statements to Check "Multiple Conditions"
+
+        -> Syntax 
+
+            if condition:
+                block of code
+            elif conceptualize:
+                block of code
+            elif conceptualize:
+                block of code
+            elif conceptualize:
+                block of code
+            elif conceptualize:
+                block of code
+            else:
+                block of code
+
+    
+    -> match case 
+
+        -> The match/case statement (introduced in Python 3.10) is used for 
+        structural "pattern matching" 
+
+        -> NOTE: In Other Languages We Have switch-case, which is same as 
+        match case in python.
+
+        -> Syntax:
+
+            match expression:
+                case pattern_1:
+                    block of code 
+                case pattern_2:
+                    block of code 
+                case pattern_3:
+                    block of code 
+                case pattern_4:
+                    block of code 
+                .
+                .
+                case _:
+                    default block of code
+
+        -> NOTE: Use match case when 
+
+            -> You are comparing one Variable, Against Fixed Constant Values   
+
+                -> Like 
+
+                    Menu Options (ATM) 
+                    Months 
+                    HTTP Status Codes 
+                    Roles 
+            
+            -> https://miro.medium.com/v2/0*emwCsVL6_veL1d0I
+
+        -> NOTE: Use elif when, you are checking Conditions 
+
+            -> Like 
+
+                Marks >= 90 
+                Age >= 18
+                Salary >= 50000     
+
+    
+    -> Nested Conditionals 
+
+        -> Conditionals inside Conditionals
+
+        -> This allows the program to evaluate multiple criteria sequentially, 
+        where the inner condition is only checked if the outer condition is true. 
+
+    
+    -> NOTE: Work On conditionals_tasks.md file which you can access from GitHub Link 
+
+        -> https://github.com/ravi2krishna/py-2621/tree/main/05_control_stmts
+
+        
+
+    -> Looping Structures (Iteration Statements) (Repetition)
+
+        -> Loops in Python are used to "repeatedly" execute a block of code 
+        until a specific condition is met or for each item in a sequence.
+
+            -> Repeatedly execute a block of code until a specific condition is met
+
+                -> Every Month Last 3 Days, Send SMS / Email To Customer About EMI Deduction
+                till the loan is closed  
+
+            -> Repeatedly execute a block of code for each item in a sequence
+
+                -> Products Catalog With 15k Products (Ecommerce Platform), Now We have Clearance 
+                Sale Apply 15% Discounts On All The Products 
+
+            -> NOTE: Python Has Given while and for Keywords  
+
+            -> We Have while loops and for loops 
+
+                
+
+
+
+
+
+

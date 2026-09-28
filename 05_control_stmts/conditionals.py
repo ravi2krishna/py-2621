@@ -85,3 +85,73 @@ if age >= 18:
     print("You Can Vote")
 else:
     print("You Cannot Vote")
+
+print("===================")
+    
+# Conditional Expression 
+age = int(input("Enter Your Age: "))
+# value_if_true if condition else value_if_false 
+print("You Can Vote" if age >= 18 else "You Cannot Vote")
+
+print("===================")
+
+# Say I Want To Check If Student Passed Or Failed 
+marks = int(input("Enter Your Marks: "))
+if marks >= 35:
+    print("PASSED")
+else:
+    print("FAILED")
+    
+print("===================")
+
+# Say I Want To Check For Grades
+# elif ladder
+# 90 and above - A Grade
+# 75 and above but below 90 - B Grade
+# 60 and above but below 75 - C Grade
+# 60 and above but below 50 - D Grade
+# 35 and above but below 50 - E Grade
+# Below 35 Failed 
+marks = int(input("Enter Your Marks: "))
+if marks >= 90:
+    print("A Grade")
+elif marks >= 75:
+    print("B Grade")
+elif marks >= 60:
+    print("C Grade")
+elif marks >= 50:
+    print("D Grade")
+elif marks >= 35:
+    print("E Grade")
+else:
+    print("FAILED")
+    
+print("===================") 
+
+# match case 
+error_code = int(input("Enter Error Code You Are Seeing: "))
+match error_code:
+    case 200:
+        print("Success - OK")
+    case 404:
+        print("Error Page Not Found")
+    case 500:
+        print("Error Server Not Responding")
+    case _:
+        print("Unknown Error Code")
+ 
+print("===================") 
+  
+# match case 
+user_role = input("Enter Your User Role: ")
+match user_role:
+    case "admin":
+        print("Full Access")
+    case "student":
+        print("Read Only Access")
+    case "trainer":
+        print("Read & Write Access")            
+    case _:
+        print("Unknown User Role")
+
+print("===================") 
