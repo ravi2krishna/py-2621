@@ -908,9 +908,49 @@ Class - 8
             -> We Have while loops and for loops 
 
                 
+Class - 9
+===========
+
+    -> while loop 
+
+        -> while loops execute a block of code repeatedly 
+        as long as a specified condition remains True
+
+        -> Syntax
+
+            while condition:
+                block of code to repeat
+
+        -> NOTE: We Use while loop, when we don't know 
+        Number Of Iterations / Repetitions In Advance.
 
 
 
+    -> for loop 
+
+        -> for loop is used to "iterate over a sequence" 
+        (like a list, tuple, string etc) 
+
+        -> NOTE: For loop executes a block of code once, for each item in the sequence. 
+
+        -> Syntax 
+
+            for variable_name in sequence:
+                block of code to repeat
+
+        -> NOTE: We Use for loop, when we know 
+        Number Of Iterations / Repetitions In Advance.
 
 
+    
+    -> range() function 
 
+        -> The range() function in Python generates a sequence of numbers. 
+        It is commonly used for iterating a specific number of times in for loops. 
+
+        -> Syntax 
+
+            range(start, stop, step)
+                -> start default is 0 (included) (inclusive)
+                -> stop at this value (excluded) (exclusive)
+                -> step is increment (default step is 1)
