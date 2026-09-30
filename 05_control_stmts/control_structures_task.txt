@@ -1,0 +1,35 @@
+# Using All Control Structures 
+
+# Simulate a real world Functionality Using
+Conditionals, Loops & Branching
+
+# Simulate Authentication Functionality
+Bank Logins / ATM Withdraws / Password Based Logins etc 
+
+# The User will be given maximum of 3 Attempts 
+
+# The Login password / ATM Pin / OTP 
+
+# PIN Should be 4 Digit Only 
+
+# Assume Correct Pin is stored for Comparison 
+
+# If the pin given is not 4 digit number display error message 
+
+    -> Transaction Failed 
+
+    -> Reduce Attempt 
+
+# If the pin given is 4 digit number and is incorrect 
+
+    -> Transaction Failed 
+
+    -> Reduce Attempt 
+
+# If the pin given is 4 digit number and is correct 
+
+    -> Transaction Success  
+
+# After 3 Attempts, display
+
+    -> Maximum Attempts Reached, Try After 24 Hours 

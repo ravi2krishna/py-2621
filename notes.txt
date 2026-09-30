@@ -954,3 +954,35 @@ Class - 9
                 -> start default is 0 (included) (inclusive)
                 -> stop at this value (excluded) (exclusive)
                 -> step is increment (default step is 1)
+
+
+Class - 10
+===========
+
+    -> Nested Loops 
+
+        -> Loops Inside Loops 
+
+        -> A nested loop in Python is a "loop placed inside the body of another loop". 
+        This structure is used to handle multidimensional data (like grids or lists within lists), 
+        generate patterns, and perform actions that require "multiple layers of iteration".
+
+
+    -> Branching Structures (Jump Statements) 
+
+        -> Used Within Loops, these Statements Also Control The Flow Of Execution 
+
+            -> Allowing You To Exit Loop Early (break)
+
+            -> Allowing You To Skip Current Iteration (continue) 
+
+                -> break: Helps You Exits Loops 
+
+                -> continue: Helps You Skip Current Iteration 
+
+                -> pass: Acts as a Placeholder, Does Nothing 
+
+
+    -> NOTE: Work On loops_tasks.md file which you can access from GitHub Link 
+
+        -> https://github.com/ravi2krishna/py-2621/tree/main/05_control_stmts
