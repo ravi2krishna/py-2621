@@ -986,3 +986,128 @@ Class - 10
     -> NOTE: Work On loops_tasks.md file which you can access from GitHub Link 
 
         -> https://github.com/ravi2krishna/py-2621/tree/main/05_control_stmts
+
+
+Class - 11
+===========
+
+    -> Strings 
+
+        -> Strings are one of the "Most Widely Used Datatype" in any programming language
+
+        -> Strings are preferred for Taking Inputs In Web Applications 
+
+        -> User Registration / User Login 
+
+            -> username
+            -> password 
+            -> first name 
+            -> last name 
+            -> etc 
+
+        -> NOTE: Most of the inputs we process from web pages of an Application are Strings 
+
+
+        -> In Python String is a "Sequence Of Characters" used to represent data.
+
+        -> Syntax For representing Strings 
+
+            -> Strings can be enclosed in '' or " " or """ """ or ''' '''
+
+            -> Single Line Strings: Use '' or " "
+
+            -> Multi Line Strings: Use """ """ or ''' ''' 
+
+        
+        -> Rules When Defining Strings 
+
+            -> When you use single quote in a string, enclose them in double quotes 
+            -> When you use double quote in a string, enclose them in single quotes 
+            -> When you use both single quote and double quote in a string, 
+            enclose them in triple single / double quotes 
+
+        -> Accessing Strings 
+
+            -> Indexing 
+
+                -> String indexing in Python allows access to "individual characters within a string" 
+                using their "position", known as the "index".
+
+                -> Python uses zero-based indexing, meaning the first character is at index 0, 
+                the second at index 1, and so on.
+
+                -> Syntax 
+
+                    print(string[index])
+
+                -> Positive Indexing:
+                Starts from the beginning of the string.
+                The index of the first character is 0.
+
+                -> Negative Indexing:
+                Starts from the end of the string.
+                The index of the last character is -1.
+
+                0   1 2  3  4  5
+                p   y t  h  o  n
+                -6 -5 -4 -3 -2 -1   
+
+                -> NOTE: When You Access Index, which is not present, we get IndexError 
+
+
+            -> Slicing 
+
+                -> String slicing in Python is a method for "extracting a portion" (substring) 
+                from a larger string. It utilizes the slice operator [] with specific 
+                indices to define the desired segment. 
+
+                -> Syntax 
+
+                    string[start:stop:step]
+                        
+                        -> start default is 0 (included) (inclusive)
+                        -> stop at this value (excluded) (exclusive)
+                        -> step is increment (default step is 1)
+
+                    range(start,stop,end)
+
+
+        -> String Concatenation 
+
+            -> Joining Strings Using + Operator 
+
+        -> Formatted String Literals (f-strings)
+
+            -> Using Interpolation {} Using f 
+
+        -> String Repetition 
+
+            -> Repeat Strings Using * Operator 
+
+        -> String Immutability 
+
+            -> Immutability Means Cannot Be Modified / Changed 
+
+            -> Strings are Immutable In Nature   
+
+    
+    -> String Methods
+
+        -> String Methods In Python are Built-in Methods that operates on string objects 
+        allowing you to perform 
+
+            -> Manipulations 
+
+            -> Transformations  
+
+            -> Validations 
+
+        
+        -> NOTE: It is important to note that strings in Python are immutable, 
+        meaning these methods do not modify the original string but 
+        instead return a new string with the applied changes.
+
+        -> https://docs.python.org/3/library/stdtypes.html#string-methods
+
+        -> NOTE: dir() function, gives you list of all operations you can perform 
+        on an object
