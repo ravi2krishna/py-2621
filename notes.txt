@@ -1111,3 +1111,11 @@ Class - 11
 
         -> NOTE: dir() function, gives you list of all operations you can perform 
         on an object
+
+
+Class - 12
+===========
+
+    -> String Methods Continued 
+
+    
