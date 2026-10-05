@@ -1118,4 +1118,87 @@ Class - 12
 
     -> String Methods Continued 
 
+
+Class - 13
+===========
+
+    -> Simple Data Types 
+
+        -> Can Hold "One Value" In a Variable 
+
+            -> data = 10
+            -> data = 10.5
+            -> data = "hello" 
+
+    -> Complex Data Types 
+
+        -> Can Hold "Multiple Values" In a Variable 
+
+            -> data = 10,5,8,1,2
+            -> data = 10.5,0.5,1.5 
+            -> data = "hello","hi","hey" 
+
+    -> Python Provides Following Classes To Work With Complex Data Types 
+
+        -> List 
+
+        -> Tuple 
+
+        -> Dictionary
+
+        -> Set 
+
+    -> Lists 
+
+        -> List is a data structure which allows you to store multiple values 
+        in a single Variable, each value is separated with , 
+
+        -> Lists are Represented using [] or "list" class 
+
+        -> Accessing Data In Lists 
+
+            -> Like In Strings, We Have Index Concept In Lists Too 
+
+            -> Index Starts From Zero 
+
+            -> Support Both Positive and Negative Indexing 
+
+            -> Slicing Is Same As Strings 
+
+            -> Loops We Can Apply 
+
+            -> Operators We Can Apply 
+
+            -> Conditionals We Can Apply 
+
+            -> Duplicates Allowed 
+
+            -> Insertion Order Preserved 
+
+        -> Characteristics Of Lists
+
+            -> Mutable: Lists are Mutable In Nature 
+
+            -> Order: Lists Order Is Preserved 
+
+            -> Duplicates: Lists Allows Duplicates 
+
+
+        -> NOTE: Requirement: Store Multiple Employees PAN ID's 
+
+        -> After 3 Months Client Gave New Requirement
+
+        -> NOTE: New Requirement, Store Multiple Employee PAN ID's  
+        and Make Sure ID's Cannot Be Changed  
+
+        -> After 3 Months Client Gave New Requirement
+
+        -> NOTE: New Requirement, Store Multiple Employee PAN ID's  
+        and Make Sure ID's Cannot Be Changed and also PAN ID's  should be Unique 
+
+
+    
+
+
+
     
