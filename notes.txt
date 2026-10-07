@@ -1300,8 +1300,63 @@ Class - 14
 
             -> Dictionaries Are Mutable
 
-            
 
+Class - 15
+===========           
+
+    -> Dictionaries Continued 
+
+    -> Characteristics Of Dictionaries
+
+            -> Mutable: Dictionaries are Mutable In Nature 
+
+            -> Order: Dictionaries Order Is Preserved 
+
+            -> Duplicates: Dictionaries Allows Duplicates For Values   
+
+
+
+    -> Sets 
+
+        -> Set is a data structure which allows you to "store multiple values" 
+        in a single Variable, each value is separated with , 
+
+        -> Sets are Represented using {} or "set" class 
+
+        -> Accessing Data In Sets 
+
+            -> Like In Strings, We DON'T Have Index Concept In Sets
+
+            -> Doesn't Support - Index Starts From Zero 
+
+            -> Doesn't Support Both Positive and Negative Indexing 
+
+            -> Doesn't Support Slicing 
+
+            -> Loops We Can Apply 
+
+            -> Operators We Can Apply 
+
+            -> Conditionals We Can Apply 
+
+            -> Duplicates Not Allowed (*)
+
+            -> Insertion Order Is Not Preserved 
+
+            -> Sets Are Mutable
+
+        -> NOTE: To Easily Remember Sets (UUU)
+
+            -> U - Unique Data  
+
+            -> U - Unordered Data 
+
+            -> U - Unindexed Data 
+
+        
+        -> NOTE: With sets we can do Mathematical set operations (class X - XI)
+
+            -> https://i0.wp.com/mathematicalmysteries.org/wp-content/uploads/2023/08/e-math-set-notation-venn-diagram.jpg?fit=800%2C539&ssl=1
 
 
 

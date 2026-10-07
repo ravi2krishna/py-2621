@@ -146,3 +146,41 @@ print(data)
 # https://www.anbowell.com/_astro/guide_to_json.DimYsN86.webp
 # https://www.goanywhere.com/sites/default/files/styles/max_2600x2600/public/2022-08/example_json_file_0.png.webp?itok=nS3qt8dd
 
+students = {"101":{},"102":{}}
+print(type(students))
+
+print("=" * 50)
+
+students = {
+    "101":{
+        "name":"Ravi",
+        "email":"ravi2krishna@gmail.com",
+        "courses":["python","DA","AI"],
+        "courses_fee":(10000,15000,25000)    
+    },
+    "102":{
+        "name":"John",
+        "email":"john@gmail.com",
+        "courses":["java","sql","devops"],
+        "courses_fee":(10000,5000,25000)    
+    }
+}
+
+print(type(students))
+
+print("=" * 50)
+
+# Requirement: Get 101 Student Details
+print(students["101"])
+
+print("=" * 50)
+
+# Requirement: Get 101 Student Enrolled Courses 
+print(students["101"]["courses"])
+print("=" * 50)
+
+# Requirement: Get 101 Student Enrolled First Course
+print(students["101"]["courses"][0])
+print("=" * 50)
+
+print(dir(students))
