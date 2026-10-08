@@ -91,3 +91,16 @@ print(data)
 
 # Set Operations 
 print(dir(data))
+
+print("=" * 50)
+
+data = set() # Build an unordered collection of unique elements.
+
+# frozenset 
+data = frozenset() # Build an immutable unordered collection of unique elements.
+print(type(data))
+
+data = frozenset({10,20,10,30,40,10,50,10})
+print(data)
+
+print(dir(data)) # frozenset Methods / Operations: What Actions Can Be Done On frozenset 

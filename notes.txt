@@ -1359,6 +1359,99 @@ Class - 15
             -> https://i0.wp.com/mathematicalmysteries.org/wp-content/uploads/2023/08/e-math-set-notation-venn-diagram.jpg?fit=800%2C539&ssl=1
 
 
+Class - 16
+===========
+
+    -> Sets Continued 
+
+        -> Characteristics Of Sets
+
+            -> Mutable: Sets are Mutable In Nature 
+
+            -> Order: Sets Are Unordered 
+
+            -> Duplicates: Sets Doesn't Allows Duplicates 
+
+
+    -> frozenset 
+
+        -> frozenset is a data structure which allows you to "store multiple values" 
+        in a single Variable, each value is separated with , 
+
+        -> frozenset are Represented using "frozenset" class 
+
+        -> Accessing Data In frozenset 
+
+            -> Like In Strings, We DON'T Have Index Concept In frozenset
+
+            -> Doesn't Support - Index Starts From Zero 
+
+            -> Doesn't Support Both Positive and Negative Indexing 
+
+            -> Doesn't Support Slicing 
+
+            -> Loops We Can Apply 
+
+            -> Operators We Can Apply 
+
+            -> Conditionals We Can Apply 
+
+            -> Duplicates Not Allowed (*)
+
+            -> Insertion Order Is Not Preserved 
+
+            -> frozenset Are Immutable
+
+        -> NOTE: To Easily Remember frozenset (UUU)
+
+            -> U - Unique Data  
+
+            -> U - Unordered Data 
+
+            -> U - Unindexed Data 
+
+        
+        -> NOTE: With frozenset we can do Mathematical frozenset operations (class X - XI)
+
+            -> https://i0.wp.com/mathematicalmysteries.org/wp-content/uploads/2023/08/e-math-set-notation-venn-diagram.jpg?fit=800%2C539&ssl=1
+
+
+        -> Characteristics Of frozenset
+
+            -> Immutable: frozenset are Immutable In Nature 
+
+            -> Order: frozenset Are Unordered 
+
+            -> Duplicates: frozenset Doesn't Allows Duplicates 
 
 
     
+    -> NOTE: Now We Know, How Lists, Tuples, Dictionaries and Sets Work 
+
+    -> NOTE: How / When To Use Above Data Structures In Applications ?? 
+
+        -> How / When To Use Lists ??
+
+        -> How / When To Use Tuples ??
+
+        -> How / When To Use Dictionaries ??
+
+        -> How / When To Use Sets ??
+
+    
+
+    -> CRUD Applications 
+
+        -> CRUD stands for Create, Read, Update, and Delete, the four fundamental,
+        persistent operations for managing data within databases and software applications.
+
+        -> These operations allow users to add new data, view existing data, modify data, and 
+        remove data, forming the "backbone of most web applications" and user interfaces. 
+
+        -> We use CRUD for applications that require persistent storage, such as content management 
+        systems, e-commerce sites, and customer relationship management (CRM) tools. 
+        Examples include online forms, user profile pages, and dashboards for managing records.
+
+        -> https://drive.google.com/file/d/1Yabj4nFUx_1g6eAw3EsEsopEWxivTK2Z/view?usp=sharing
+
+        -> https://drive.google.com/file/d/1gpWYycwbeRWrmShF5Hc1V86KcIVYJCfE/view?usp=sharing
