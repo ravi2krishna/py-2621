@@ -1,0 +1,124 @@
+# Requirement For Any Application Management System (Student / Employee / Inventory etc)
+
+    -> https://camo.githubusercontent.com/80202f3d2bf784b929b926dcd70ad0b7451ff3aab65708a679081697855162a8/68747470733a2f2f646c2e64726f70626f782e636f6d2f73636c2f66692f3661386b6966623064317572683471736d713333692f656d706c6f7965652d6d616e6167656d656e742d73797374656d2d616264656c68616c696d2e706e673f726c6b65793d773672787469363734686f7172696c75326a776a69667578312673743d7a397a746e67727026646c3d30
+
+    -> https://www.phpcrm.com/wp-content/uploads/product-management-system.png
+
+
+-> Create Student Management System, Which Helps Admins Of an Training Institute 
+to Manage Students Information 
+
+-> In Student Management System, Student is the main entity and has 
+Information Like IDs, Names, Scores, Skills etc 
+
+-> System Setup 
+
+    -> Company Name: Digital Tech 
+
+    -> Software Name: Student Management System 
+
+    -> Version: v1 
+
+    -> NOTE: Above data should be READ ONLY 
+
+
+-> Admin Info 
+
+    -> Admin Contact Number: 9999999999
+
+    -> Admin Email ID: admin@digital.com 
+
+    -> NOTE: Above data should be READ ONLY 
+
+
+-> NOTE: When We Start This Application, Display System Info 
+
+-> Once Application Runs, Implement Core Functionalities (CRUD)
+
+    -> Add Student (CRUD - C - CREATE)
+
+        -> Prompt For Student ID and Check If this ID already exists in the system 
+
+            -> If ID exists, Say Student ID Already Exists 
+
+            -> If ID doesn't exist, Add Student ID in the System 
+
+                -> Take Student Name 
+
+                    -> Format Name Like Below 
+
+                        -> User Input (ravi krishna) => Output (Ravi Krishna) and Store In System 
+
+                
+                -> Take Student Scores 
+
+                    -> NOTE: There can be multiple scores 
+
+                    -> Take Scores Till Students Says done 
+
+                        -> Enter Score or type done
+                            90 80 done -> 90 & 80
+
+                        -> Validate Scores Between 0 to 100 (score 150, 200 etc should be invalid)
+
+                        -> Scores Can Be Duplicated 
+
+                
+                -> Take Student Skills 
+
+                    -> NOTE: There can be multiple skills  
+
+                    -> Take Skills Till Students Says done 
+                    
+                    -> Enter Skill or type done 
+                        python ai done -> python & ai 
+
+                    -> Skills Cannot Be Duplicated 
+
+                        
+    -> Modify / Edit Student (CRUD - U - UPDATE)
+
+        -> Search By ID 
+
+        -> If ID is present, allow to update Name 
+
+        -> If ID is not present, give appropriate error 
+
+    
+    -> Delete Student (CRUD - D - DELETE)
+
+        -> Search By ID 
+
+        -> If ID is present, allow to Delete Student Record
+
+        -> If ID is not present, give appropriate error 
+
+    
+    -> Read Student Info (CRUD - R - READ)
+
+        -> Search By ID 
+
+        -> If ID is present, Show Following Details 
+
+            -> ID 
+
+            -> NAME 
+
+            -> All Scores 
+
+            -> Average Score 
+
+            -> Highest Score 
+
+            -> Lowest Score 
+
+            -> All Skills 
+
+            -> Skills Count 
+
+        -> If ID is not present, give appropriate error 
+
+
+    -> NOTE: When We Close This Application, Display Admin Info 
+
+    
