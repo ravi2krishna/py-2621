@@ -1462,3 +1462,29 @@ Class - 17
 ===========
 
     -> CRUD Application Implementation
+
+
+Class - 18
+===========
+
+    -> CRUD Application Implementation
+
+    
+    -> NOTE: Build Ecommerce Product Inventory System 
+
+        -> Create Product (product id, product name, product description, product price, product quantity)
+        -> Update Product Price, Product Quantity
+        -> Delete Product 
+        -> Read Product 
+        
+        -> Ask User To Purchase Product, if product is available (i.e Product Quantity above 0)
+        let the user purchase it, then decrease Product Quantity by 1 
+        
+        -> Get Report: List Of All Products 
+        -> Get Report: Total Products Value (3 products) 
+
+            -> p1 - price is 100 - available Quantity is 3 -> 300
+            -> p2 - price is 200 - available Quantity is 5 -> 1000
+            -> p3 - price is 100 - available Quantity is 5 -> 500
+
+            -> Total Products Value - 1800
