@@ -1488,3 +1488,104 @@ Class - 18
             -> p3 - price is 100 - available Quantity is 5 -> 500
 
             -> Total Products Value - 1800
+
+
+Class - 19
+===========
+
+    -> Functional Programming 
+
+        -> In computer science, functional programming is a programming paradigm 
+        where programs are constructed by applying and composing "functions"
+
+
+    -> Functions 
+
+        -> In Python, a function is a named, "reusable block of code" that performs 
+        a specific task, takes input (arguments), processes data, 
+        and can return an output.
+
+    
+    -> Why Functions 
+
+        -> Functions can break down complex problems into smaller and
+        simpler manageable sub tasks for promoting code modularity. 
+
+        -> Once defined a function, it can be "called multiple times", so that 
+        we can achieve code reusability.
+
+    
+    -> Functions are defined using "def" keyword, followed by function name,
+    parenthesis(which may contain parameters), and a colon:
+    the code within the function is indented 
+
+        -> Syntax
+
+            def function_name():
+                statements
+
+            def function_name(parameters):
+                statements
+
+        -> NOTE: calling function is must
+
+            function_name()
+            function_name(parameters)
+
+    
+        -> Python functions can be defined to accept "parameters" 
+        which can act as placeholders for values that will be 
+        passed into function when called. 
+
+        -> We use parameters to make functions dynamic in nature
+
+
+    -> Based On Arguments Passed To Functions, We Got Five Types 
+
+        -> Positional Arguments 
+
+        -> Keyword Arguments 
+
+        -> Default Arguments 
+
+        -> Arbitrary Positional Arguments 
+
+        -> Arbitrary Keyword Arguments    
+
+    
+    
+    -> Positional Arguments 
+
+        -> In Python, positional arguments are values passed to a function during 
+        its call, where the assignment of these values to the function's parameters 
+        is determined solely by their "order" (position) in the argument list. 
+
+        -> The first argument in the function call is assigned to the first parameter 
+        in the function definition, the second to the second, and so on.
+
+        -> Order Matters: If the order is incorrect, the function will receive the wrong values 
+        for its intended parameters, potentially leading to errors or unexpected behavior. 
+
+
+    -> Keyword Arguments 
+
+        -> In Python, keyword arguments are a way to pass values to a function by explicitly 
+        "naming the parameters" they correspond to, rather than relying on their position 
+        in the argument list. 
+
+        -> This offers advantages, primarily in terms of code readability and flexibility.
+
+
+    -> Default Arguments 
+
+        -> In Python, default arguments allow you to define a function parameter 
+        with a "pre-assigned" value i.e default value 
+
+        -> If a caller does not provide an argument for that parameter during a function call, 
+        the default value is automatically used. 
+        If an argument is provided, it overrides the default.
+
+        -> Placement Requirement: Default arguments must always be placed after 
+        any non-default arguments in the function definition. 
+        Attempting to place a non-default argument after a 
+        default argument will result in a SyntaxError.
