@@ -163,3 +163,203 @@ def employee_info(emp_name,emp_email,emp_location,emp_mobile,org_name="IBM",gst=
 employee_info(emp_location="Hyderabad",emp_name="Ravi",emp_email="ravi@gmail.com",emp_mobile=999999)  
 
 print("=" * 50) 
+
+# Without Arbitrary Positional Arguments 
+def add_numbers(n1):
+    print(n1)
+    
+def add_two_numbers(n1,n2):
+    print(n1+n2)
+    
+def add_five_numbers(n1,n2,n3,n4,n5):
+    print(n1+n2+n3+n4+n5)
+    
+add_numbers(1)
+print("=" * 50) 
+add_two_numbers(1,2)
+print("=" * 50) 
+add_five_numbers(1,2,3,4,5)
+print("=" * 50) 
+
+
+# With Arbitrary Positional Arguments 
+def add_numbers(*numbers):
+    print(numbers)
+
+add_numbers(10)
+print("=" * 50)
+add_numbers(10,20)
+print("=" * 50)
+add_numbers(10,20,30,40,50)
+print("=" * 50)
+
+# With Arbitrary Positional Arguments 
+def add_numbers(*numbers):
+    total_sum = 0
+    for num in numbers:
+        total_sum += num 
+    print(f"Total Sum is {total_sum}")
+
+add_numbers(10)
+print("=" * 50)
+add_numbers(10,20)
+print("=" * 50)
+add_numbers(10,20,30,40,50)
+print("=" * 50)
+
+def profile(*info):
+    print(info)
+    
+profile("ravi")
+print("=" * 50)
+profile("ravi",90909090,9.5,True)
+print("=" * 50)
+
+# Real World Use Case is Ecommerce Cart 
+def cart_total_value(*products):
+    total_cart = 0
+    for price_product in products:
+        total_cart += price_product 
+    print(f"Total Sum is {total_cart}")
+
+# Customer One    
+cart_total_value(1099,185,595)
+print("=" * 50)
+
+# Customer Two    
+cart_total_value(1299,1085,1595,1800)
+print("=" * 50)
+
+# Arbitrary Keyword Arguments 
+def profile(**info):
+    print(info)
+    
+profile(first_name="ravi")
+print("=" * 50)
+profile(first_name="ravi",mob_num=90909090,gpa=9.5,passed=True)
+print("=" * 50)
+
+def profile(**info):
+    for data in info:
+        print(data) # Key 
+    
+profile(first_name="ravi",mob_num=90909090,gpa=9.5,passed=True)
+print("=" * 50)
+
+def profile(**info):
+    for data in info:
+        print(info[data]) # Value 
+    
+profile(first_name="ravi",mob_num=90909090,gpa=9.5,passed=True)
+print("=" * 50)
+
+# Real World Use Case -> https://i.ytimg.com/vi/tfZOZWVb81M/hq720.jpg?sqp=-oaymwEYCJUDENAFSFryq4qpAwoIARUAAIhC0AEB&rs=AOn4CLD61RCES1Oo8OL919n3tkbqnBt2yA
+
+# Real World Use Case -> jan=3000, feb=4500, mar=9000
+# Real World Use Case -> jan=3000, feb=4500, mar=9000, apr=6000, may=3000, jun=5000
+
+def bank_transactions(**transactions):
+    print(transactions)
+    total_transactions_value = 0
+    total_transactions_count = 0
+    for transaction in transactions:
+        total_transactions_value += transactions[transaction]
+        total_transactions_count += 1
+    print(f"Total Transactions Amounts To {total_transactions_value} for {total_transactions_count} Transactions")
+        
+
+bank_transactions(jan=3000, feb=4500, mar=9000)
+print("=" * 50)
+bank_transactions(jan=3000, feb=4500, mar=9000, apr=6000, may=3000, jun=5000)
+print("=" * 50)
+
+# without return
+def add(a,b):
+    a + b 
+    
+add(10,20)
+print(add(10,20))
+
+print("=" * 50)
+
+# with return
+def add(a,b):
+    return a + b 
+
+print(add(10,20))
+
+print("=" * 50)
+
+# # Problem Statement 
+# def add(a,b):
+#     print(a+b) # None
+    
+# # function composition
+# def sub(c,d,e): # add c & d, then minus e --> c + d - e 
+#     print(add(c,d) - e) # TypeError: unsupported operand type(s) for -: 'NoneType' and 'int'
+    
+# sub(3,4,5) # 3 + 4 - 5 = 2 (None - 5) 
+
+# Problem Statement 
+def add(a,b):
+    return a+b # 7
+    
+# function composition
+def sub(c,d,e): # add c & d, then minus e --> c + d - e 
+    print(add(c,d) - e) 
+    
+sub(3,4,5) # 3 + 4 - 5 = 2 
+
+print("=" * 50)
+
+# If you use return, make sure it's the last part of statement to be executed   
+def add(a,b):
+    print("Calculation Started")
+    return a+b 
+    print("Calculation Completed") # Code is structurally unreachable
+
+print(add(5,5))
+
+print("=" * 50)
+
+# If you have multiple return statements, first return will be considered 
+a = 50
+a = 60
+a = 70
+
+print(a)
+
+print("=" * 50)
+
+def math_ops(n1,n2):
+    return n1 + n2
+    return n1 - n2 # Code is structurally unreachable
+    return n1 * n2 # Code is structurally unreachable
+
+print(math_ops(1,2))
+
+print("=" * 50)
+
+def math_ops(n1,n2,operator):
+    if operator == "+":
+        return n1 + n2 
+    elif operator == "-":
+        return n1 - n2 
+    elif operator == "*":
+        return n1 * n2 
+    elif operator == "/":
+        return n1 / n2 
+    else:
+        return "Invalid Operator Given"
+    
+print(math_ops(10,5,"+"))
+
+print("=" * 50)
+
+print(math_ops(10,5,"*"))
+
+print("=" * 50)
+
+print(math_ops(10,5,"$"))
+
+print("=" * 50)

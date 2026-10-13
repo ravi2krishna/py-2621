@@ -1589,3 +1589,54 @@ Class - 19
         any non-default arguments in the function definition. 
         Attempting to place a non-default argument after a 
         default argument will result in a SyntaxError.
+
+
+Class - 20
+===========
+
+    -> Arbitrary Positional Arguments 
+
+        -> Arbitrary means unknown or random 
+
+        -> In Python, arbitrary Positional arguments allow a function to accept 
+        a unknown number of Positional arguments. 
+
+        -> This is achieved by placing an asterisk (*) before a parameter name 
+        in the function definition.
+
+        -> This parameter will then collect all the positional arguments 
+        passed to the function into a tuple. 
+
+    
+    -> Arbitrary Keyword Arguments 
+
+        -> Arbitrary means unknown or random 
+
+        -> In Python, arbitrary keyword arguments allow a function to accept 
+        a unknown number of Keyword arguments. 
+
+        -> This is achieved by placing two asterisks (**) before a parameter name 
+        in the function definition.
+
+        -> This parameter will then collect all the Keyword arguments 
+        passed to the function into a Dictionary, 
+        where names will be keys and value is value 
+
+    
+    -> return 
+
+        -> In Python, the "return" keyword is used within a function 
+        to send a value back to the part of the code that called the function.
+
+            -> Task -> O/P -> I/P For Another Task (Fails)
+
+            -> Task -> return O/P -> I/P For Another Task (Succeeds)
+
+        -> When working with function composition (function calling another function), 
+        return will be helpful
+
+        -> NOTE: when you don't use a return, by default a function returns None 
+
+        -> If you use return, make sure it's the last part of statement to be executed 
+
+        -> If you have multiple return statements, first return will be considered   
