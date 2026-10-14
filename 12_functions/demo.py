@@ -363,3 +363,119 @@ print("=" * 50)
 print(math_ops(10,5,"$"))
 
 print("=" * 50)
+
+# Local Scope 
+def add():
+    la = 10 # Local - inside the function
+    lb = 20 # Local - inside the function
+    # Accessing within function
+    print(la)
+    print(lb)
+    
+add()
+
+# accessing outside the function
+# print(la) # NameError: name 'la' is not defined. Did you mean: 'a'?
+
+print("=" * 50)
+
+# Parameters we pass to the functions, are also local variables 
+def add(la,lb): # Local - inside the function    
+    print(la)
+    print(lb)
+    
+add(30,40)
+
+# accessing outside the function
+# print(la) # NameError: name 'la' is not defined. Did you mean: 'a'?
+
+print("=" * 50)
+
+# Global Scope 
+ga = 100 # global - outside the function
+
+def add(la,lb): # Local - inside the function    
+    print(la)
+    print(lb)
+    print(ga) # global accessed inside the function
+    
+add(50,60)
+
+print(ga) # global accessed outside the function
+
+print("=" * 50)
+
+# name conflicts
+ga = 500 # global - outside the function
+
+def add(la,lb,ga): # Local - inside the function    
+    print(la)
+    print(lb)
+    print(ga) # local accessed inside the function
+    print(globals()['ga']) # global access inside the function
+    
+add(70,80,90)
+
+print("=" * 50)
+
+# global variable outside the function
+count = 0
+print(count)
+count += 1
+print(count)
+
+print("=" * 50)
+
+# global variable inside the function
+count = 0
+print(count)
+
+def increment():
+    global count
+    count += 1 # UnboundLocalError: cannot access local variable 'count' where it is not associated with a value
+    return count
+
+print(increment())
+
+print("=" * 50)
+
+# Without Lambda i.e Standard Functions 
+def add(a,b):
+    return a + b 
+
+print(add(100,50))
+
+print("=" * 50)
+
+# With Lambda Functions 
+# lambda arguments:expression 
+lambda a,b:a+b
+# print((lambda_function)(arguments)) # IILE 
+print((lambda a,b:a+b)(4,5))
+
+print("=" * 50)
+
+# Without Lambda i.e Standard Functions
+def is_even_num(num):
+    if num % 2 == 0:
+        return True 
+    else:
+        return False 
+    
+print(is_even_num(11))
+
+print("=" * 50)
+
+print(is_even_num(10))
+
+print("=" * 50)
+
+# With Lambda Functions 
+# lambda arguments:expression 
+lambda num:num % 2 == 0
+print((lambda num:num % 2 == 0)(5)) 
+print("=" * 50)
+print((lambda num:num % 2 == 0)(7)) 
+print("=" * 50)
+print((lambda num:num % 2 == 0)(4)) 
+print("=" * 50)

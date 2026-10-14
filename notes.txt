@@ -1640,3 +1640,113 @@ Class - 20
         -> If you use return, make sure it's the last part of statement to be executed 
 
         -> If you have multiple return statements, first return will be considered   
+
+
+Class - 21
+===========
+
+    -> Scopes In Functions 
+
+        -> Scope: Inside the function is where you can access data, depends on scope. 
+
+            -> Local Scope 
+
+            -> Global Scope 
+
+
+        -> Local Scope 
+
+            -> A Variable Defined Inside Function 
+
+            -> It's lifetime exists only within the function
+
+            -> We cannot use them outside the function    
+            
+            -> NOTE: Parameters we pass to the functions, are also local variables 
+
+        
+        -> Global Scope 
+
+            -> A global variable declared "outside the function" 
+
+            -> It's lifetime exists within the function, as well as outside the function 
+
+            -> As global variables can be accessed inside the functions, there can be
+            name conflicts, in this scenario the preference is given to local variables
+
+                -> NOTE: To Access Global Variable in above scenario, use globals()
+
+            -> If you want global variables to be changed inside the function, we cannot 
+            do that directly 
+
+                -> NOTE: To Change global variable inside the function, use global keyword 
+
+    
+    -> Types Of Functions 
+
+        -> Built In Functions 
+
+        -> User Defined Functions 
+
+        -> Lambda Functions 
+
+        -> Higher Order Functions  
+
+    
+    -> Built In Functions 
+
+        -> Pre Defined Functions, Provided as the part of Python Standard Library 
+
+        -> We Don't Need To Create Explicitly again using def keyword 
+
+        -> Just Call Them Using function_name 
+
+        -> Examples 
+
+            -> print(), id(), type(), dir(), input() etc 
+
+
+    -> User Defined Functions 
+
+        -> User Defined Functions are Created By Developers using def keyword
+
+        -> User Defined Functions are Created based on Custom Requirements 
+
+        -> Examples 
+
+            -> add(), emp_info(), math_ops(), profile() etc 
+
+    
+    -> Lambda Functions 
+
+        -> A Lambda Function in Python is a Small Anonymous Function(Nameless)
+        which is defined using "lambda" keyword 
+
+        -> Unlike Standard Functions(block of code), 
+        Lambda functions are restricted to single line expression 
+
+        -> Unlike Standard Functions, Lambda functions automatically returned(Implicit) 
+        without using a return statement
+
+        -> Lambda Functions are often used for "short, one-time operations" 
+        where a full function definition would be unnecessarily verbose.
+
+        -> Using lambda we can write "one liner functions" called "IILE" 
+        Immediately Invoked Lambda Expression
+
+            -> Syntax 
+
+                lambda arguments:expression 
+
+        -> NOTE: Generally Lambda Functions Will be attached with Higher Order Functions 
+
+
+
+    -> Higher Order Functions 
+
+        -> Higher Order Functions Performs Operations On Iterables 
+
+        -> Concise Code, Without Writing Lengthy / Verbose Code 
+        Using Loops & Conditionals 
+
+        -> NOTE: Imperative vs Declarative (How To Do vs What To Do)
