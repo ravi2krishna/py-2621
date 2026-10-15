@@ -1750,3 +1750,48 @@ Class - 21
         Using Loops & Conditionals 
 
         -> NOTE: Imperative vs Declarative (How To Do vs What To Do)
+
+
+Class - 22
+===========
+
+            -> map()
+
+                -> The map() function in Python is a built-in function that applies 
+                a given function to each item in an iterable (like a list, tuple, or string) 
+                and returns an iterator containing the results. 
+                    
+                -> It provides a concise way to perform "transformations" on 
+                collections of data without explicitly writing loops. 
+
+                -> Functional Programming 
+
+                    -> In computer science, functional programming is a programming paradigm 
+                    where programs are constructed by applying and composing "functions"
+
+                    -> Syntax
+
+                        map(function, iterable)
+
+                -> NOTE: Just Like Using For Loop with function
+
+                    -> Using the map() Function (Data Transformation)
+
+
+    -> filter()
+
+        -> filter() function applies a given function(preferably lambda function)
+        to each item in an Iterable and returns an Iterator Containing Results. 
+
+        -> NOTE: filter() function provides a Concise Way To Perform 
+        "Data Extractions" Without Using Length Loops With Conditionals. 
+
+        -> It is a powerful tool for "selectively extracting data" based on a "given condition".
+
+        -> Syntax 
+
+            filter(function,Iterable)
+
+        -> NOTE: Just Like Using For Loop and Conditionals With Standard Functions  
+
+        -> NOTE: Used Widely In Data Extractions 
