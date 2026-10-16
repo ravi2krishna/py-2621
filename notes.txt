@@ -1795,3 +1795,26 @@ Class - 22
         -> NOTE: Just Like Using For Loop and Conditionals With Standard Functions  
 
         -> NOTE: Used Widely In Data Extractions 
+
+
+Class - 23
+===========
+
+    -> Implementation Of CRUD Application Using Functional Style (11_crud_app)
+
+        -> Additionally Implement "Search Students By Skill" - Use Lambda & Higher Order Functions 
+
+    
+    -> NOTE: Reusability In Terms Of "Code Blocks", We Go For "Functions" 
+
+        -> Say We Have add_student() Function, which i want to use in 
+        other places i.e Files(demo.py) (Failed)
+
+    -> NOTE: Reusability In Terms Of "Files", We Go For "Modules"
+
+    -> NOTE: Reusability In Terms Of "Folders", We Go For "Packages"
+
+
+    -> NOTE: In Real World, Packages Contain Modules and Modules contain Functions 
+
+        -> Folder -> Files -> Content 
