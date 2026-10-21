@@ -1818,3 +1818,98 @@ Class - 23
     -> NOTE: In Real World, Packages Contain Modules and Modules contain Functions 
 
         -> Folder -> Files -> Content 
+
+
+Class - 24
+===========
+
+    -> Modules 
+
+        -> A Module is a "Simple Python File" which contains python definitions 
+
+            -> variables 
+            -> functions 
+            -> classes 
+            -> etc 
+
+        
+        -> Syntax 
+
+            -> import module (imports complete module i.e loading all functionalities in module)
+
+            -> from module import specific_functionality (imports only what you need) # Recommended
+
+        
+        -> Types Of Modules 
+
+            -> Inbuilt Modules 
+
+                -> Provided as part of Standard Python Library 
+
+                -> math module provides access to common mathematical functions and constants
+
+                -> Python Inbuilt Modules - https://docs.python.org/3/py-modindex.html
+
+            
+            -> User Defined Modules 
+
+                -> Created By Developers For Custom Requirements 
+                
+                -> NOTE: Here module name is nothing but file name 
+
+                -> Requirement: User/Customer needs arithmetic operations and profile related information
+
+            
+            -> External Modules 
+
+                -> Provided By 3rd Party Vendors 
+
+                    -> https://pypi.org/
+
+                -> The Python Package Index (PyPI) is a repository of software for the Python programming language.
+
+                -> PyPI helps you find and install software developed and shared by the Python community. 
+            
+                -> NOTE: To work with External Modules, we need pip 
+
+                    -> pip: PIP most commonly refers to Pip Installs Packages, 
+                    the standard package manager used to install and manage software libraries 
+                    in the Python programming language.
+
+                        -> Syntax 
+
+                            -> pip install software_library 
+
+                            -> pip install pandas 
+                            -> pip install numpy 
+                            -> pip install etc 
+
+                    -> Data Analyst 
+
+                        -> https://pypi.org/project/pandas/
+
+                        -> pip install pandas 
+
+                    -> Full Stack Developer 
+
+                        -> https://pypi.org/project/requests/
+
+                        -> pip install requests 
+
+                    -> DevOps / Cloud Engineer 
+
+                        -> https://pypi.org/project/boto3/
+
+                        -> pip install boto3
+
+                                -> etc 
+
+                -> NOTE: Use case for an external module 
+
+                    -> https://medium.com/@noorfatimaafzalbutt/fetching-data-through-apis-with-python-a-comprehensive-guide-e3b335de0067
+
+        -> requests 
+
+            -> The requests library is the standard, third-party HTTP client for Python. 
+            It allows you to send HTTP requests to interact with web pages, 
+            download assets, and consume REST APIs using clean, human-readable code.
