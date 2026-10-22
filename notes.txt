@@ -1913,3 +1913,118 @@ Class - 24
             -> The requests library is the standard, third-party HTTP client for Python. 
             It allows you to send HTTP requests to interact with web pages, 
             download assets, and consume REST APIs using clean, human-readable code.
+
+
+Class - 25
+===========
+
+    -> Packages 
+
+        -> A Folder With "Multiple Modules" (Multiple Python Files)
+
+        -> A Package contains special file named as __init__.py 
+
+        -> __init__.py can be empty, but generally we keep 
+        startup information or startup data configuration
+
+        -> In Order To Use Package, use the name of the folder 
+
+        -> Syntax 
+
+            from package_name import module 
+
+            from package_name.module_name import function_name 
+
+    
+    
+    -> File Management With Python 
+
+        ->  After executing 12_functions/app.py 
+        we can confirm data is being stored "Temporarily"   
+
+        -> All the activities we performed so far, were dealing with
+        "Non-Persistent" Storage (RAM / MEMORY)
+
+            -> Non-Persistent Storage is "Temporary" 
+
+        -> Now the Requirement is to work with "Persistent" Storage (HARD DISK)
+
+            -> Persistent Storage is "Permanent" 
+
+        -> File Operations 
+
+            -> CRUD 
+
+                -> C - Create File 
+
+                -> R - Read From File 
+
+                -> U - Update To File 
+
+                -> D - Delete File 
+
+    
+        -> To Work With Any Type Of File, Python has provided 
+
+            -> open() function
+
+                -> The built-in open() function in Python is used to open a file on your system 
+                and return a corresponding file object, serving as the foundation for 
+                all file input/output (I/O) operations.
+
+                -> File Opening Modes
+
+                    'r' - Read - Opens a file for reading - Raises FileNotFoundError if missing.
+                    'w' - Write - Creates a file or overwrites it if it already exists.
+                    'a' - Append - Appends data to the end of the file. Creates it if missing.
+                    'x' - Create - Creates a new file. Raises FileExistsError if it exists.
+                    'b' - Binary - Opens the file in binary mode (e.g., images, PDFs) instead of text.
+                    etc 
+
+    
+            -> Syntax - 1
+
+                file = open("file_path","mode")
+
+                file = open("file.txt","r")  
+
+                -> NOTE: Here we need to "explicitly close" files 
+                after operations are performed
+
+            -> Syntax - 2 (Recommended)
+
+                with open("file_path","mode") as alias_name:
+                    statements 
+                
+                with open("file.txt","r") as file_data:
+                    statements 
+
+                -> NOTE: Here we don't need to "explicitly close" files 
+                after operations are performed, as it is implicitly closed (auto close)
+
+    
+    -> NOTE: We Don't Work with Text Files i.e .txt files in Real World Scenarios 
+
+    -> NOTE: In Real World we use mostly CSV and JSON File Formats 
+
+    -> Python has provided "csv" module to work with CSV Data i.e CSV Files 
+
+        -> Very commonly used in "Data Oriented Applications"
+
+        -> CSV stands for comma-separated values, which is a plain text file format 
+        used to store table data like a spreadsheet or database.
+
+        -> Each line in the file is one row of data.
+        
+        -> Each value or word in the row is separated by a comma.
+        
+        -> The first line usually contains the column names (like Name, Age, City).
+        
+        -> The file extension ends with .csv
+
+        -> https://www.datablist.com/learn_images/csv/google_sheet_csv.png
+
+        -> https://www.slashgear.com/img/gallery/csv-files-explained-what-they-are-and-how-to-open-them/what-are-csv-files-1699455969.jpg
+
+        -> The built-in Python csv module allows you to read and write 
+        tabular data in CSV format without installing external libraries.
