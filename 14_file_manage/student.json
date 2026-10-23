@@ -1,0 +1,10 @@
+{
+    "id": 101,
+    "name": "Ravi",
+    "courses": [
+        "python",
+        "ai",
+        "devops"
+    ],
+    "gpa": 9.3
+}

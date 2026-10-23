@@ -2028,3 +2028,36 @@ Class - 25
 
         -> The built-in Python csv module allows you to read and write 
         tabular data in CSV format without installing external libraries.
+
+
+Class - 26
+===========
+
+    -> File Management With CSV 
+
+    -> Working With JSON Data i.e for Application Development Oriented (Full Stack Developers)
+
+        -> JSON (JavaScript Object Notation) is a lightweight, human-readable, text-based format 
+        for storing and exchanging structured data, using key-value pairs and arrays, 
+        making it ideal for web applications, APIs and Configuration Files(Cloud & DevOps)
+
+        -> JSON represents data as key-value pairs within objects 
+        (enclosed in curly braces {}) -> same as Dictionary in python
+
+            -> https://d33wubrfki0l68.cloudfront.net/0e4bef351d9e23cdb33adba9e491f73db3c9c50c/7dcfe/data.png
+
+            -> https://jsoneditoronline.org/images/news/smart_json_formatting.png
+
+        
+        -> Full Stack Development 
+
+            -> https://d274cmdd0goq94.cloudfront.net/wp-content/uploads/2022/01/3.jpeg
+
+            -> https://images.velog.io/images/kevinkim2586/post/20923cbf-a83e-4857-968f-0b6dffde9a8d/Screen%20Shot%202021-01-14%20at%202.27.47%20PM.png
+
+            -> https://docs.tomorrow.io/reference/weather-forecast
+
+            -> JSON is widely used in Application Development (API's)
+
+        
+        -> Python has provided "json" module to work with JSON Data i.e JSON Files 
