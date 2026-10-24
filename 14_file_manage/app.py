@@ -57,9 +57,22 @@ students = load_students()
     
 # Save Students Data To JSON File 
 def save_students():
-    with open(FILE_NAME,"w") as file_data:
-        json.dump(students,file_data,indent=4)
-
+    
+# TypeError: Object of type set is not JSON serializable
+        # Fix Above Issue By Converting To List Format
+        json_data_fix = {
+            # {'101': {'name': 'Ravi', 'scores': [90], 'skills': {'python'}}}
+            sid: {
+                "name": data['name'],
+                "scores": data['scores'],
+                "skills": list(data['skills'])
+            }
+            for sid,data in students.items()
+        }
+        
+        with open(FILE_NAME,"w") as file_data:
+            json.dump(json_data_fix,file_data,indent=4)
+        
 
 # Add Student Function
 def add_student():

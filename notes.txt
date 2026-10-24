@@ -2061,3 +2061,63 @@ Class - 26
 
         
         -> Python has provided "json" module to work with JSON Data i.e JSON Files 
+
+
+Class - 27
+===========
+
+    -> After executing 14_file_manage/app.py 
+    we can confirm data is being stored "Permanently"  
+
+    
+    
+    -> Exception Handling 
+
+        -> Exception: It's an "Error", which might occur during the program execution 
+
+        -> By default when python encounters an Error, 
+        it abruptly "STOPS" the program execution
+
+        -> NOTE: When End Users Looks At These Errors Like 
+        TypeError: unsupported operand type(s) for /: 'int' and 'str'
+        users don't know what the issue might be and creates confusion 
+
+        -> To Change The Default Behavior Of Exception Handling, 
+        and handle Exceptions Your Way, We Need Following 
+
+            -> try: used to keep the code, that will cause error 
+
+            -> except: used to keep the code, that should run when error occurs
+
+                -> NOTE: Use Multiple except blocks, when multiple Errors are encountered
+
+            -> else: used to keep the code that should run, if No Exception was raised in try block
+
+            -> finally: used to keep the code that should run, whether an exception raised or not 
+
+                -> DB / Files -> closing connections will be in done in finally block 
+
+            -> raise: Used To Trigger Exceptions 
+
+
+        
+        -> Earlier we worked with In built Exceptions provided as part of 
+        python standard library (ZeroDivisionError, IndexError, ValueError, TypeError etc)
+
+            -> https://docs.python.org/3/library/exceptions.html 
+
+        -> In Certain Scenarios, We Need "Custom Errors" that describes 
+        the Issues Specific To Your Program 
+
+
+        -> You Can Create Custom Exceptions By "Defining a Class" that Inherits 
+        from Python's Built-in "Exception" Class 
+
+        -> NOTE: programmers are encouraged to derive new exceptions from the Exception class
+
+        -> NOTE: All User Defined Exceptions Should Be Derived From Exception class 
+
+            -> Syntax:
+
+                class MyCustomError(Exception):
+                    pass 
