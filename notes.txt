@@ -2121,3 +2121,205 @@ Class - 27
 
                 class MyCustomError(Exception):
                     pass 
+
+
+Class - 28
+===========
+
+    -> OOP - Object Oriented Programming 
+
+        -> OOP, or Object-Oriented Programming, is a programming model/paradigm 
+        that organizes code around "objects" 
+
+            -> Car is an object
+
+            -> Phone is an object
+
+            -> Person is an object 
+
+        
+    -> Earlier (Functional Style)
+
+        -> Writing Long List Of Instruction (task oriented)
+
+    
+        -> Moving Forward 
+
+            -> Thinking in terms of real world entities (objects)
+
+                -> Object - Data (attributes/variables)
+
+                -> Object - Behavior (methods/functions)
+
+            -> Writing Code That Follows Object Oriented Design Principals 
+
+                -> Focus is on objects and their relationships, not just functions(tasks)
+
+                -> We don't think about steps, we think about "who does what"
+
+
+    -> NOTE: Compare Functional Programming vs OOP 
+
+                            Functional Style                        Object Oriented Style 
+
+    -> Focus                Step by step functions                  Real World Objects 
+
+    -> Data & Function      Separate                                Combined inside a class 
+
+    -> Code Organization    One Big Script                          Multiple Reuseable Classes 
+
+    -> Reusability          Harder                                  Easy as for Inheritance
+
+    -> Maintenance          Complex as code grows                   More Cleaner 
+
+
+    -> Four Pillars Of OOPS
+
+        -> Inheritance 
+
+            -> Using Inheritance we get "Reusability"
+
+        -> Encapsulation 
+
+            -> Binding Data & Behavior Together with Data Hiding 
+
+        -> Abstraction 
+
+            -> Hiding Complexity, and show only what user needs 
+
+        -> Polymorphism 
+
+            -> For Extensibility, One Entity has multiple forms 
+    
+    
+    
+    -> To Work With OOP, We need to know following concepts 
+
+        -> Classes 
+
+        -> Objects 
+
+        -> Methods 
+
+        -> Constructors
+
+        -> Instance Members 
+
+        -> Class Members 
+
+        -> Static Members 
+
+        -> OOP Principals 
+
+            -> Inheritance
+
+            -> Encapsulation
+
+            -> Abstraction
+
+            -> Polymorphism
+
+
+
+    -> Object 
+
+        -> In Terms Of Real World, Everything is object 
+
+        -> Every Object Has Two Entities 
+
+            -> An Object "HAS" Something like Characteristics / Properties 
+
+                -> Car HAS brand 
+                -> Car HAS price 
+                -> Car HAS color 
+                -> Car HAS etc 
+
+                -> NOTE: In Technical they are Variables
+
+
+            -> An Object "DOES" Something like Behaviors / Actions 
+
+                -> Car DOES drive forward
+                -> Car DOES drive backward
+                -> Car DOES sound horn 
+                -> Car DOES etc 
+
+                -> NOTE: In Technical they are Methods 
+        
+        -> How To Create Objects ?
+
+           -> We Need Classes To Create Objects  
+
+    
+    -> Class
+
+        -> A class is a "Blueprint" for creating objects 
+
+        -> A class will define, what Characteristics & Behaviors, an object should posses 
+
+        -> NOTE: A Car class can define 
+
+            -> What can a car have 
+
+            -> What can a car do   
+
+        -> NOTE: Without Classes, Objects Cannot Exist
+
+    
+    -> Class: 
+        
+        -> https://s3.amazonaws.com/gc-p/screenshots/pics/68446cebb1c92aa555eca8fbff217689/large.jpg
+
+    -> Objects 
+
+        -> https://cdn.mos.cms.futurecdn.net/Drifb4WGUoCj2gVUo2BQnG-1540-80.jpg
+
+        -> https://carindia.in/wp-content/uploads/2020/06/new-BMW-M5-and-M5-Competition-web1.jpg
+
+
+    -> Methods 
+
+        -> A Method is block of code, which performs a task 
+        Associated With Objects
+
+        -> A Function is block of code, which performs a task 
+
+        -> NOTE: If we write a function inside a class it becomes Method
+
+    
+    -> Methods will be inside the class 
+
+        ->                      Functions                           Methods
+
+        How To Call             function_name(args)                 object.method_name(args)
+
+        Belongs To              independent                         object 
+
+        Defined Using           def function_name                   def method_name (but inside class)  
+
+
+
+    -> Syntax 
+
+        # For Class
+        class ClassName:
+            statements i.e Characteristics& Behaviors
+            Variables & Methods
+
+        # For Object 
+        object = ClassName()
+
+        # For Method
+        class Student:
+            student_name = "Ravi" 
+            student_email = "ravi@gmail.com 
+
+            def method_name():
+                statements 
+
+        
+        -> NOTE: In Python Classes are Automatically Called 
+
+        -> NOTE: In Python Method Call is Must 
+
+            
