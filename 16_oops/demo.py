@@ -152,3 +152,189 @@ student_mike = Student("Mike","mike@gmail.com")
 student_mike.student_studies() 
 
 print("=" * 50)
+
+print("=" * 50)
+
+# Working With Multiple Objects 
+# Class - Blue Print 
+class Student:
+    
+    # Object "HAS" Something like Characteristics / Properties (Variables)
+    # Student Has - Name, Email, Gender, Course etc 
+    # student_name = "Ravi"
+    # student_email = "ravi@gmail.com"
+    
+    # Constructor
+    def __init__(self,student_name,student_email):
+        print("Constructor Call")
+        # Instance Variables - self.student_name & self.student_email
+        self.student_name = student_name
+        self.student_email = student_email
+    
+    # Object "DOES" Something like Behaviors / Actions (Methods)
+    # Student Does - Studies, Attends, Takes Exams etc 
+    # self is object reference
+    # Instance Method 
+    def student_studies(self):
+        print("Student Is Studying Python")
+        print("Student Name: ",self.student_name) # Recommended 
+        print("Student Email: ",self.student_email) # Recommended 
+    
+# To use this class, we need an object 
+# student_ravi = Student() # TypeError: Student.__init__() missing 2 required positional arguments: 'student_name' and 'student_email'
+student_ravi = Student("Ravi","ravi@gmail.com")
+student_ravi.student_studies() 
+
+student_john = Student("John","john@gmail.com")
+student_john.student_studies() 
+
+student_mike = Student("Mike","mike@gmail.com")
+student_mike.student_studies() 
+
+print("=" * 50)
+
+# Working With Multiple Objects 
+# Class - Blue Print 
+class Student:
+    
+    # Class Variables - Shared Data 
+    institute_name = "Digital Learning"
+    course = "Python"
+    
+    # Constructor
+    def __init__(self,student_name,student_email):
+        print("Constructor Call")
+        # Object "HAS" Something like Characteristics / Properties (Variables)
+        # Student Has - Name, Email, Gender, Course etc 
+        # Instance Variables - self.student_name & self.student_email
+        self.student_name = student_name
+        self.student_email = student_email
+    
+    # Object "DOES" Something like Behaviors / Actions (Methods)
+    # Student Does - Studies, Attends, Takes Exams etc 
+    # self is object reference
+    # Instance Method 
+    def student_studies(self):
+        print(f"Welcome To {self.institute_name}") # Not Recommended
+        print("Student Is Studying: ",Student.course) # Recommended
+        print("Student Name: ",self.student_name) # Recommended 
+        print("Student Email: ",self.student_email) # Recommended 
+        
+    # Class Method 
+    @classmethod
+    def change_institute_name(cls,new_name):
+        cls.institute_name = new_name
+    
+# To use this class, we need an object 
+student_ravi = Student("Ravi","ravi@gmail.com")
+student_ravi.student_studies() 
+
+print("=" * 50)
+
+student_john = Student("John","john@gmail.com")
+student_john.student_studies() 
+
+print("=" * 50)
+
+student_mike = Student("Mike","mike@gmail.com")
+student_mike.student_studies() 
+
+print("=" * 50)
+
+# Calling Class Method
+Student.change_institute_name("Digital New Learning")
+
+student_ravi = Student("Ravi","ravi@gmail.com")
+student_ravi.student_studies() 
+
+print("=" * 50)
+
+student_john = Student("John","john@gmail.com")
+student_john.student_studies() 
+
+print("=" * 50)
+
+student_mike = Student("Mike","mike@gmail.com")
+student_mike.student_studies() 
+
+print("=" * 50)
+
+
+# Working With Multiple Objects 
+# Class - Blue Print 
+class Student:
+    
+    # Class Variables - Shared Data 
+    institute_name = "Digital Learning"
+    course = "Python"
+    
+    # Constructor
+    def __init__(self,student_name,student_email):
+        print("Constructor Call")
+        # Object "HAS" Something like Characteristics / Properties (Variables)
+        # Student Has - Name, Email, Gender, Course etc 
+        # Instance Variables - self.student_name & self.student_email
+        self.student_name = student_name
+        self.student_email = student_email
+    
+    # Object "DOES" Something like Behaviors / Actions (Methods)
+    # Student Does - Studies, Attends, Takes Exams etc 
+    # self is object reference
+    # Instance Method 
+    def student_studies(self):
+        print(f"Welcome To {self.institute_name}") # Not Recommended
+        print("Student Is Studying: ",Student.course) # Recommended
+        print("Student Name: ",self.student_name) # Recommended 
+        print("Student Email: ",self.student_email) # Recommended 
+        
+    # Class Method 
+    @classmethod
+    def change_institute_name(cls,new_name):
+        cls.institute_name = new_name
+        
+    # Static Method
+    @staticmethod
+    def calculator(num1,num2):
+        print(f"Sum Is: {num1+num2}")
+        print(f"Difference Is: {num1-num2}")
+        print(f"Product Is: {num1*num2}")
+        print(f"Division Is: {num1/num2}")
+    
+# To use this class, we need an object 
+student_ravi = Student("Ravi","ravi@gmail.com")
+student_ravi.student_studies() 
+
+print("=" * 50)
+
+student_john = Student("John","john@gmail.com")
+student_john.student_studies() 
+
+print("=" * 50)
+
+student_mike = Student("Mike","mike@gmail.com")
+student_mike.student_studies() 
+
+print("=" * 50)
+
+# Calling Class Method
+Student.change_institute_name("Digital New Learning")
+
+student_ravi = Student("Ravi","ravi@gmail.com")
+student_ravi.student_studies() 
+
+print("=" * 50)
+
+student_john = Student("John","john@gmail.com")
+student_john.student_studies() 
+
+print("=" * 50)
+
+student_mike = Student("Mike","mike@gmail.com")
+student_mike.student_studies() 
+
+print("=" * 50)
+
+# Calling Static Method 
+Student.calculator(10,5)
+
+print("=" * 50)

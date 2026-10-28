@@ -2485,3 +2485,64 @@ Class - 29
             -> Used as utilities / helper functions 
 
             -> Called Using ClassName
+
+Class - 30
+===========
+
+    -> Implementation Of Instance Members - Class Members - Static Members 
+
+
+    -> Inheritance
+
+        -> Inheritance is a core OOP concept where a new class, 
+        called a subclass or child class, acquires the 
+        Properties(Variables) and Behaviors(Methods) from an 
+        existing class, called as Super Class or Parent Class.
+
+        -> NOTE: Main purpose of Inheritance is CODE Reusability.
+
+        -> Syntax 
+
+            class Parent:
+                pass 
+
+            class Child(Parent):
+                pass 
+
+
+    
+    -> Encapsulation
+
+        -> Encapsulation is a core concept in object-oriented programming (OOP) that "binds"
+        Properties(Variables) and Behaviors(Methods) into a single unit called "Class".
+
+        -> NOTE: Binding Of Properties(Variables) and Behaviors(Methods) is done in Classes 
+
+            -> https://www.cincom.com/wp-content/uploads/2025/08/ENCAPSULATION-01.webp
+
+        -> Encapsulation process also involves "restricting" direct access to an 
+        object's internal state, which is a principle known as "data hiding" 
+
+        -> In Other Languages We Have access modifiers public, protected, and private
+        for "data hiding", but python doesn't have any such keywords. 
+
+    
+        -> Hiding Data 
+
+            -> We have public access 
+
+                -> Without any special naming conventions or prefixes 
+                are considered as public and can be accessed from anywhere 
+
+            -> We have private access 
+
+                -> prefixed with a double underscore (__)
+
+                -> cannot be accessed from outside 
+
+            -> We have protected access 
+
+                -> prefixed with a single underscore (_)
+
+                -> cannot be accessed from outside, but can be accessed in sub classes  
+
