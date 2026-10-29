@@ -2546,3 +2546,59 @@ Class - 30
 
                 -> cannot be accessed from outside, but can be accessed in sub classes  
 
+
+Class - 31
+===========
+
+    -> Encapsulation Implementation
+
+    -> Abstraction
+
+        -> Abstraction in OOP is a principle that involves "hiding" complex "implementation" 
+        details and showing only the essential features of an object to the user.
+
+        -> Hiding implementation: Means "hiding the internal workings" 
+        and present a simplified view. 
+
+            -> https://www.youtube.com/watch?v=DKF5dKo_r_Y 
+
+            -> https://www.youtube.com/shorts/XKVC4EdbRv0
+
+    
+    -> For example, when using an ATM, 
+        you only  interact with a simple interface (card, PIN, cash dispenser) without needing 
+        to know the complex process of backend banking operations that occur. 
+
+
+    -> To Achieve Abstraction In Python 
+
+        -> Use Abstract Classes & Abstract Methods 
+
+        -> NOTE: Till Now, Whatever The Classes We Created, 
+        Those Are Concrete Classes 
+
+        -> An Abstract Class In Python, Functions As A Blueprint 
+        For Other Classes, Defining Common Structure That 
+        subclasses Must Bind To.
+
+            -> NOTE: Abstract Classes Helps You Enforce Contract 
+            Like Behavior (You Need To Bind By Contract)
+
+            -> NOTE: Abstract Classes Cannot Be instantiated, 
+            meaning we cannot create objects to Abstract Class 
+
+    -> To Use Abstract Classes & Abstract Methods, We Need "abc" Module 
+
+        -> from abc import ABC, abstractmethod 
+
+    
+    -> NOTE: To Achieve Abstraction, Create a Class That Inherits From 
+    ABC and inside this class define abstractmethod using @abstractmethod decorator
+
+    -> NOTE: abstractmethod have declaration, but no implementation 
+
+    -> Abstraction in OOP is a principle that involves "hiding" complex "implementation" 
+
+    -> NOTE: Now No Implementation, So What To Hide.
+
+    
