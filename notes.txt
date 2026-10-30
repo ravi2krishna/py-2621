@@ -2602,3 +2602,48 @@ Class - 31
     -> NOTE: Now No Implementation, So What To Hide.
 
     
+Class - 32
+===========
+
+    -> Abstraction Implementation 
+
+    -> Polymorphism 
+
+        -> Polymorphism in OOP is the ability to take on "many forms"
+
+        -> Polymorphism (from the Greek for "many forms") is the ability of an entity, 
+        such as an object, method to take on different forms or 
+        behave differently depending on the context in which it is used.
+
+            -> Bat: 
+                
+                -> Sports: A wooden or metal club used in baseball or cricket.
+                
+                -> Animal: A nocturnal flying mammal.
+
+        -> Polymorphism is achieved through techniques like 
+        "Method overloading" and "Method overriding"
+
+
+        -> Method Overloading
+
+            -> Method Overloading in OOP is the ability to 
+            "define multiple methods with the same name", but different parameter lists 
+            (number, type, or order of arguments) within a single class
+
+            -> https://media.licdn.com/dms/image/v2/D5612AQFCbTOnfX5Vmg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1705375013206?e=2147483647&v=beta&t=GUFAPU8JiBNDHXXITJd73TFJwb4fgmeE4DPW6UiiY9A
+
+            -> NOTE: Python doesn't support Traditional Method Overloading 
+
+
+        -> Method Overriding 
+
+            -> When a subclass provides a new implementation 
+            of a method that already exists in parent class 
+
+            -> Polymorphism In Real World Application 
+
+                -> https://images.news18.com/ibnlive/uploads/2018/02/Amazon-India-UPI-Payment-Option.jpg 
+                
+
+
